@@ -25,6 +25,7 @@ ports:
 ports_description:
   53/udp: DNS server port
   80/tcp: Web interface (Not required for Ingress)
+  3000/tcp: Admin interface port
 discovery:
   - adguard
 auth_api: true
