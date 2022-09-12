@@ -21,6 +21,7 @@ init: false
 ports:
   53/udp: 53
   80/tcp: null
+  3000/tcp: 3000
 ports_description:
   53/udp: DNS server port
   80/tcp: Web interface (Not required for Ingress)
